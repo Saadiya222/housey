@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+}
+
+header{
+    background-color: #0e80b8;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+#profile-dropdown {
+    font-size: 30px;
+    color: white;
+    padding-right: 20px;
+}
+
+.sign-up-head{
+    background-color:#28abed;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.sign-up-head:hover{
+    background-color:#88d1f5;
+}
+
+section{
+    padding: 100px 200px;
+}
+
+.imgs{
+    position:relative;
+}
+
+.user-banner{
+    width: 100%;
+    height: 70vh;
+    background: url(banner.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 10%;
+}
+
+.user-img img{
+    border: 3px;
+    border-style: solid;
+    border-color: rgb(56, 124, 163);
+    border-radius: 100%;
+    position: absolute;
+    width: 15em;
+    height: 15em;
+    bottom: -15%;
+    right: 5%;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+}
+
+.main ul{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+
+.main ul li{
+    font-size: large;
+    font-weight: 800;
+    height: 10vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.main .profile-details .user-info{
+    padding-bottom: 0.5em;
+}
+
+#location{
+    text-decoration: none;
+    padding-right: 1em;
+    color: #387ca3;
+    font-size: 30px;
+}
+.main .profile-details .btns a{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.main .profile-details .btns a:hover{
+    background-color: white;
+    color: black;
+}
+
+.imgs .reviews{
+    background-color: white;
+    position: absolute;
+    right: 5%;
+    margin-top: 7em;
+    padding: 5em;
+    border-radius: 10%;
+}
+
+.imgs .reviews p{
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+}
+
+.imgs .reviews a{
+    text-decoration: none;
+    background-color: #ffe7c8;
+    color: #89b6aa;
+    padding: 9px;
+    border-radius: 10%;
+}
+
+.imgs .reviews a:hover{
+    background-color: #89b6aa;
+    color: white;
+}
+ 
+.imgs .contact-user i{
+    background-color: #6ebbe8;
+    color: white;
+    border-radius: 12%;
+    position: absolute;
+    font-size: 30px;
+    padding: 8px 16px;
+    bottom: 4%;
+    right: 11.5em;
+}
+
+.imgs .contact-user i:hover{
+    background-color: #387ca3;
+    color: #13394f;
+}
+
+.footer{
+    background-color: #545454;
+    color: white;
+    padding: 2em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer .social-icons a{
+    text-decoration: none;
+    padding-right: 1em;
+    color: white;
+}
+
+.main p{
+    margin: 0 auto;
+    font-size: 2em;
+    font-weight: 700;
+    display: inline-block;
+    color: #e6b160;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main .delete-home{
+    
+    background-color:#e6b160;
+    color:#ffe7c8;
+    text-decoration: none;
+    font-size: 0.6em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+
+.main .delete-home:hover{
+    background-color: #d99734;
+    transform: scale(1.1);
+}
+
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #af7d4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: #926b33;
+  }
+
+.main .profile-details .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  .imgs .user-bio i{
+    background-color: #6ebbe8;
+    color: white;
+    border-radius: 12%;
+    position: absolute;
+    font-size: 30px;
+    padding: 8px 16px;
+    bottom: 4%;
+    right: 14.5em;
+}
+
+.imgs .user-bio i:hover{
+    background-color: #387ca3;
+    color: #13394f;
+}

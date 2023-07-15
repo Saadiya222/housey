@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;   
+}
+
+header{
+    background-color: #0E80B8;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color: #eee;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+
+.ul-dropdown{
+    position: absolute;
+    display: block;
+    top: 84px;
+    right: 0;
+    height: 200px;
+    width: 180px;
+    background-color: #0E80B8;
+    padding: 0.4rem 0.8rem;
+}
+
+.ul-dropdown li{
+    padding: 4px;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.ul-dropdown li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+#profile-dropdown {
+    font-size: 30px;
+    color: white;
+    padding-right: 20px;
+}
+
+.sign-up-head{
+    background-color:#28abed;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.sign-up-head:hover{
+    background-color:#88d1f5;
+}
+
+.footer{
+    background-color:#545454;
+    color: white;
+    padding: 2em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer .social-icons a{
+    text-decoration: none;
+    padding-right: 1em;
+    color: white;
+}
+
+body{
+    background-color:rgb(255, 255, 255);}
+
+.background1{
+    width:100%;
+    height:48em;
+    background-image: url(housekeeping.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0;
+    z-index: 2;
+    background-color:black;
+    
+}
+.welcome{
+    background-color:rgba(0, 0, 0, 0.744);
+    border:none;
+    box-shadow: 2px 2px 3px 2px  rgba(0,0,0,.15);
+    margin-bottom:2px;
+    border-radius: 10px;
+    width:100%;
+    height:100%;
+    padding:60px;
+    float:left;
+    margin-top:0px;
+    padding-top:50px;
+
+
+}
+
+
+.p{
+    float:left;
+    margin:0;
+    padding:0;
+    position:relative;
+    border-radius:10px;
+}
+
+.housey{
+color:#0E80B8;
+}
+
+.background{
+    margin-top:3.2em;
+    color: rgb(178, 177, 177);
+    font-size: 70px;
+    font-family: Arial;
+    float:left;
+}
+
+
+.rights{
+    background-color:#545454;
+    color: white;
+    font-family: arial;
+    font-size: smaller;
+    text-align:left;
+    margin-top:300px;
+    padding:30px;
+    padding-bottom: 5px;
+}
+
+.description{
+    margin:50px;
+    float:left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:22px;
+    color:#746725;
+
+}
+
+.houseylogo{
+    float:left;
+    margin: 30px;
+    background-color: white;
+    border-radius: 10px;
+    padding:40px;
+    padding-left:50px;
+    padding-right:50px;
+    margin-top:20px;
+    box-shadow: 2px 2px 3px 2px  rgba(0,0,0,.15);
+}
+
+.aboutus1{
+    margin:10px;
+    margin-top: 50px;
+    font-size: 60px;
+    font-family:arial;
+    font-weight:bold;
+    color:rgb(56, 54, 54);
+
+}
+
+
+
+.frame{
+
+    border:none;
+    border-radius:20px;
+
+}
+
+.pr{
+    width: 220px;
+    height:220px;
+    border-radius:8px;
+    border:none;
+    background-color: #0E80B8;
+    color:white;
+    margin:20px;
+    margin-left:200px;
+    font-family:arial;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:50px;
+    transition: width 400ms,height 400ms,background-color 400ms;
+}
+.pr:hover{
+    width: 240px;
+    height:240px;
+    background-color:#0c6998; ;
+}
+
+.tm{
+    width: 220px;
+    height:220px;
+    border-radius:8px; 
+    border:none;
+    background-color: #246B65;
+    color:white;
+    margin:20px;
+    font-family:arial;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:50px;
+    transition: width 400ms,height 400ms,background-color 400ms;
+}
+.tm:hover{
+    width: 240px;
+    height:240px;
+    background-color:#1e5b56 ;
+}
+
+.res{
+    width: 220px;
+    height:220px;
+    border:none;
+    border-radius:8px;
+    background-color: #746725;
+    color:white;
+    margin:20px;
+    font-family:arial;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:50px;
+    transition: width 400ms,height 400ms,background-color 400ms;
+}
+.res:hover{
+    width: 240px;
+    height:240px;
+    background-color: #61561f;
+}
+
+.fle{
+    width: 220px;
+    height:220px;
+    border-radius:8px;
+    border:none;
+    background-color: #C5901A;
+    color:white;
+    margin:20px;
+    font-family:arial;
+    font-size:20px;
+    font-weight: bold;
+    margin-top:50px;
+    transition: width 400ms,height 400ms,background-color 400ms;
+}
+.fle:hover{
+    width: 240px;
+    height:240px;
+    background-color:#a37615; ;
+}
+
+.values{
+    border:none;
+    margin-top:50px;
+    margin-bottom:60px;
+}
+.h1values{
+    text-align:center;
+    font-family: arial;
+    margin-top:0px;
+    color:rgb(56, 54, 54);
+    font-size: 60px;
+    font-weight: bold;
+
+
+}
+
+.getstarted{
+    font-family:arial;
+    background-color:#246B65;
+    color:white;
+    border:none;
+    text-decoration:none;
+    border-radius:6px;
+    padding:20px;
+    font-weight:600;
+    text-align: center;
+    padding-left:30px;
+    padding-right:30px;
+    font-size:20px;
+    float:left;
+    transition: padding-left 300ms,padding-right 300ms,padding 300ms, text-decoration 300ms;
+    margin-top:20px;
+    margin-right:350px;
+}
+
+.getstarted:hover{
+    text-decoration:underline;
+    box-shadow: 2px 2px 3px 2px  rgba(0,0,0,.15);
+}
+.getstarted:active{
+    padding:25px; 
+    padding-left:35px;
+    padding-right:35px; 
+}
+
+.getstarted2{
+    margin:40vw;
+    margin-top:6%;
+    margin-bottom:10%;
+    padding:30px;
+    text-align: center;
+    padding-left:50px;
+    padding-right:50px;
+    background-color:#545454;
+    border:none;
+    border-radius:10px;
+    height:5%;
+    width:16%;
+    transition: background-color 300ms;
+
+}
+
+.getstarted2:active{
+    background-color:#303030;
+}
+
+.getstarted-2{
+    color:white;
+    text-decoration:none;
+    font-family:arial;
+    font-weight:bold;
+    font-size:20px;
+    transition: text-decoration 300ms;
+}
+
+.getstarted-2:hover{
+    text-decoration:underline;
+}
+
+.val{
+    width:80px;
+    height:80px;
+}
